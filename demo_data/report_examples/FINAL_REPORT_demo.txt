@@ -1,0 +1,681 @@
+LandRate toolbox: Eye movement analysis and landscape rating tool
+
+Analysis Report
+
+[1] Subject, Stimuli, and AOIs report:
+
+Fixation analysis report [Subject: 1, Stimulus: 1]
+-Total number of fixations on the visual scene: 33
+-Minimum fixation duration on the visual scene: 102.60 ms
+-Maximum fixation duration on the visual scene: 966.30 ms
+-Average fixation duration on the visual scene: 274.82 ms
+-Total duration of fixations on the visual scene: 9069.10 ms
+-Fixation list:
+ID-Xcenter(pixels)-Ycenter(pixels)-Nt1-Nt2/3s-StartTime(ms)-EndTime(ms)-Duration(ms)
+1 579.07 520.50 2 2 17854.50 17957.10 102.60
+2 568.31 496.27 15 15 18034.60 18267.80 233.20
+3 630.67 596.63 16 16 18284.50 18534.40 249.90
+4 660.23 542.88 13 13 18551.10 18751.00 199.90
+5 809.97 522.32 17 17 18784.40 19050.90 266.50
+6 660.15 525.73 21 20 19084.30 19400.80 316.50
+7 819.00 530.82 60 59 19434.10 20400.40 966.30
+8 899.97 542.52 11 11 20417.10 20583.70 166.60
+9 938.10 560.81 17 17 20600.40 20866.90 266.50
+10 1137.44 689.20 14 14 20900.30 21116.90 216.60
+11 1140.47 593.00 22 22 21133.50 21483.40 349.90
+12 1051.85 577.85 14 14 21500.00 21716.70 216.70
+13 743.24 563.90 10 10 21750.00 21899.90 149.90
+14 500.11 572.08 13 13 21933.20 22133.20 200.00
+15 305.32 611.79 15 15 22166.50 22399.70 233.20
+16 167.73 618.37 11 11 22433.00 22599.70 166.70
+17 92.60 621.08 28 28 22616.30 23066.20 449.90
+18 519.65 577.06 26 26 23116.20 23532.70 416.50
+19 314.31 607.91 14 13 23566.00 23765.90 199.90
+20 244.78 649.74 12 12 23782.60 23965.80 183.20
+21 120.62 665.55 18 18 23982.50 24265.80 283.30
+22 149.53 687.85 18 18 24282.40 24565.80 283.40
+23 901.63 743.89 9 9 24615.80 24748.90 133.10
+24 1072.60 741.04 16 16 24782.20 25032.10 249.90
+25 1136.77 716.60 15 15 25048.80 25282.10 233.30
+26 1116.86 567.04 31 30 25315.40 25798.50 483.10
+27 973.95 554.34 22 21 25831.80 26165.10 333.30
+28 782.47 544.82 24 23 26215.10 26581.60 366.50
+29 669.66 535.87 23 23 26598.20 26964.80 366.60
+30 899.45 584.46 18 17 26998.10 27264.70 266.60
+31 790.12 571.35 10 10 27281.40 27431.30 149.90
+32 936.43 588.96 17 17 27464.60 27731.20 266.60
+33 1064.63 595.08 7 7 27747.90 27850.90 103.00
+
+Saccade analysis report [Subject: 1, Stimulus: 1]
+-Total number of saccades on the visual scene: 32
+-Minimum saccade duration on the visual scene: 16.60 ms
+-Maximum saccade duration on the visual scene: 77.50 ms
+-Average saccade duration on the visual scene: 28.98 ms
+-Total duration of saccades on the visual scene: 927.30 ms
+-Minimum saccade amplitude on the visual scene: 26.51 pixels
+-Maximum saccade amplitude on the visual scene: 754.18 pixels
+-Average saccade amplitude on the visual scene: 164.71 pixels
+-Minimum saccade direction angle on the visual scene: 31.86 degrees
+-Maximum saccade direction angle on the visual scene: 301.03 degrees
+-Average saccade direction angle on the visual scene: 176.29 degrees
+-Saccade list:
+ID-X_Start_Point(pixels)-Y_Start_Point(pixels)-X_End_Point(pixels)-Y_End_Point(pixels)
+-Duration(ms)-Amplitude(pixels)-Direction_angle(degrees)-Start_Fixation-End_Fixation)
+1 579.0720 520.4992 568.3115 496.2714 77.5 26.510 203.948 1 2
+2 568.3115 496.2714 630.6720 596.6272 16.7 118.153 31.857 2 3
+3 630.6720 596.6272 660.2338 542.8775 16.7 61.343 151.190 3 4
+4 660.2338 542.8775 809.9689 522.3243 33.4 151.139 97.816 4 5
+5 809.9689 522.3243 660.1472 525.7318 33.4 149.860 271.303 5 6
+6 660.1472 525.7318 819.0047 530.8242 33.3 158.939 88.164 6 7
+7 819.0047 530.8242 899.9680 542.5245 16.7 81.804 81.777 7 8
+8 899.9680 542.5245 938.1045 560.8087 16.7 42.293 64.385 8 9
+9 938.1045 560.8087 1137.4446 689.2032 33.4 237.111 57.214 9 10
+10 1137.4446 689.2032 1140.4684 593.0031 16.6 96.248 178.200 10 11
+11 1140.4684 593.0031 1051.8491 577.8505 16.6 89.905 260.297 11 12
+12 1051.8491 577.8505 743.2448 563.8963 33.3 308.920 267.411 12 13
+13 743.2448 563.8963 500.1058 572.0773 33.3 243.277 271.927 13 14
+14 500.1058 572.0773 305.3227 611.7922 33.3 198.791 281.524 14 15
+15 305.3227 611.7922 167.7265 618.3657 33.3 137.753 272.735 15 16
+16 167.7265 618.3657 92.6034 621.0779 16.6 75.172 272.068 16 17
+17 92.6034 621.0779 519.6505 577.0594 50.0 429.310 95.885 17 18
+18 519.6505 577.0594 314.3089 607.9094 33.3 207.646 278.544 18 19
+19 314.3089 607.9094 244.7787 649.7365 16.7 81.142 301.030 19 20
+20 244.7787 649.7365 120.6187 665.5545 16.7 125.164 277.260 20 21
+21 120.6187 665.5545 149.5324 687.8492 16.6 36.511 52.365 21 22
+22 149.5324 687.8492 901.6320 743.8905 50.0 754.185 85.739 22 23
+23 901.6320 743.8905 1072.6000 741.0368 33.3 170.992 90.956 23 24
+24 1072.6000 741.0368 1136.7680 716.5952 16.7 68.665 110.852 24 25
+25 1136.7680 716.5952 1116.8640 567.0434 33.3 150.870 187.581 25 26
+26 1116.8640 567.0434 973.9459 554.3448 33.3 143.481 264.922 26 27
+27 973.9459 554.3448 782.4696 544.8170 50.0 191.713 267.151 27 28
+28 782.4696 544.8170 669.6570 535.8726 16.6 113.167 265.467 28 29
+29 669.6570 535.8726 899.4485 584.4631 33.3 234.873 78.060 29 30
+30 899.4485 584.4631 790.1184 571.3510 16.7 110.114 263.161 30 31
+31 790.1184 571.3510 936.4254 588.9626 33.3 147.363 83.136 31 32
+32 936.4254 588.9626 1064.6309 595.0757 16.7 128.351 87.270 32 33
+
+Scanpath analysis report [Subject: 1, Stimulus: 1]
+-Total scanpath length: 5270.76 pixels
+-Total scanpath duration: 9996.40 ms
+-Ratio saccades/fixations (durations): 0.102
+
+AOI analysis [Subject: 1, Stimulus: 1, AOI: 1]
+-Total number of fixations inside or on the edge of AOI: 15
+-Minimum fixation duration inside or on the edge of AOI: 102.60 ms
+-Maximum fixation duration inside or on the edge of AOI: 966.30 ms
+-Average fixation duration inside or on the edge of AOIe: 294.50 ms
+-Total duration of fixations inside or on the edge of AOI: 4417.50 ms
+-Fixation list inside or on the edge of AOI:
+ID-Xcenter(pixels)-Ycenter(pixels)-Nt1-Nt2/3s-StartTime(ms)-EndTime(ms)-Duration(ms)
+1 579.07 520.50 2 2 17854.50 17957.10 102.60
+2 568.31 496.27 15 15 18034.60 18267.80 233.20
+3 630.67 596.63 16 16 18284.50 18534.40 249.90
+4 660.23 542.88 13 13 18551.10 18751.00 199.90
+5 809.97 522.32 17 17 18784.40 19050.90 266.50
+6 660.15 525.73 21 20 19084.30 19400.80 316.50
+7 819.00 530.82 60 59 19434.10 20400.40 966.30
+8 899.97 542.52 11 11 20417.10 20583.70 166.60
+9 743.24 563.90 10 10 21750.00 21899.90 149.90
+10 500.11 572.08 13 13 21933.20 22133.20 200.00
+11 519.65 577.06 26 26 23116.20 23532.70 416.50
+12 782.47 544.82 24 23 26215.10 26581.60 366.50
+13 669.66 535.87 23 23 26598.20 26964.80 366.60
+14 899.45 584.46 18 17 26998.10 27264.70 266.60
+15 790.12 571.35 10 10 27281.40 27431.30 149.90
+
+AOI analysis [Subject: 1, Stimulus: 1, AOI: 2]
+-Total number of fixations inside or on the edge of AOI: 2
+-Minimum fixation duration inside or on the edge of AOI: 233.30 ms
+-Maximum fixation duration inside or on the edge of AOI: 249.90 ms
+-Average fixation duration inside or on the edge of AOIe: 241.60 ms
+-Total duration of fixations inside or on the edge of AOI: 483.20 ms
+-Fixation list inside or on the edge of AOI:
+ID-Xcenter(pixels)-Ycenter(pixels)-Nt1-Nt2/3s-StartTime(ms)-EndTime(ms)-Duration(ms)
+1 1072.60 741.04 16 16 24782.20 25032.10 249.90
+2 1136.77 716.60 15 15 25048.80 25282.10 233.30
+
+Fixation analysis report [Subject: 1, Stimulus: 2]
+-Total number of fixations on the visual scene: 25
+-Minimum fixation duration on the visual scene: 133.30 ms
+-Maximum fixation duration on the visual scene: 1332.90 ms
+-Average fixation duration on the visual scene: 367.23 ms
+-Total duration of fixations on the visual scene: 9180.70 ms
+-Fixation list:
+ID-Xcenter(pixels)-Ycenter(pixels)-Nt1-Nt2/3s-StartTime(ms)-EndTime(ms)-Duration(ms)
+1 634.62 682.96 7 7 37863.40 38060.90 197.50
+2 580.58 660.70 11 11 38177.50 38344.10 166.60
+3 701.15 541.44 13 12 38394.10 38577.40 183.30
+4 510.54 581.09 9 9 38610.70 38744.00 133.30
+5 822.11 539.04 81 81 38793.90 40126.80 1332.90
+6 924.34 577.11 37 37 40143.50 40743.30 599.80
+7 802.94 546.87 43 42 40776.60 41459.70 683.10
+8 667.29 557.67 12 11 41493.10 41659.60 166.50
+9 581.61 565.00 13 13 41676.30 41876.20 199.90
+10 484.90 601.85 17 17 41892.80 42159.40 266.60
+11 205.72 625.48 11 11 42192.70 42359.40 166.70
+12 95.92 621.61 33 32 42392.70 42909.20 516.50
+13 968.83 635.37 19 19 42975.80 43275.70 299.90
+14 1101.59 735.24 15 15 43309.00 43542.30 233.30
+15 1104.93 600.22 22 21 43575.60 43908.80 333.20
+16 987.48 581.66 42 42 43925.50 44608.60 683.10
+17 775.83 556.03 16 15 44658.50 44891.80 233.30
+18 648.66 549.90 15 15 44908.50 45141.70 233.20
+19 586.39 546.90 17 17 45158.40 45424.90 266.50
+20 485.80 565.41 16 15 45458.30 45691.50 233.20
+21 826.48 514.57 37 36 45741.50 46324.60 583.10
+22 792.24 538.11 44 44 46341.30 47057.70 716.40
+23 746.27 572.21 14 14 47074.40 47290.90 216.50
+24 728.33 629.79 19 19 47307.60 47607.50 299.90
+25 799.70 618.67 15 15 47624.20 47860.60 236.40
+
+Saccade analysis report [Subject: 1, Stimulus: 2]
+-Total number of saccades on the visual scene: 24
+-Minimum saccade duration on the visual scene: 16.60 ms
+-Maximum saccade duration on the visual scene: 116.60 ms
+-Average saccade duration on the visual scene: 34.02 ms
+-Total duration of saccades on the visual scene: 816.50 ms
+-Minimum saccade amplitude on the visual scene: 41.55 pixels
+-Maximum saccade amplitude on the visual scene: 873.02 pixels
+-Average saccade amplitude on the visual scene: 169.21 pixels
+-Minimum saccade direction angle on the visual scene: 53.05 degrees
+-Maximum saccade direction angle on the visual scene: 342.70 degrees
+-Average saccade direction angle on the visual scene: 220.05 degrees
+-Saccade list:
+ID-X_Start_Point(pixels)-Y_Start_Point(pixels)-X_End_Point(pixels)-Y_End_Point(pixels)
+-Duration(ms)-Amplitude(pixels)-Direction_angle(degrees)-Start_Fixation-End_Fixation)
+1 634.6240 682.9641 580.5847 660.7034 116.6 58.445 247.611 1 2
+2 580.5847 660.7034 701.1520 541.4400 50.0 169.588 134.689 2 3
+3 701.1520 541.4400 510.5351 581.0859 33.3 194.696 281.749 3 4
+4 510.5351 581.0859 822.1124 539.0399 49.9 314.401 97.685 4 5
+5 822.1124 539.0399 924.3399 577.1126 16.7 109.087 69.573 5 6
+6 924.3399 577.1126 802.9379 546.8696 33.3 125.112 256.012 6 7
+7 802.9379 546.8696 667.2873 557.6704 33.4 136.080 274.552 7 8
+8 667.2873 557.6704 581.6123 564.9959 16.7 85.988 274.887 8 9
+9 581.6123 564.9959 484.9016 601.8470 16.6 103.494 290.859 9 10
+10 484.9016 601.8470 205.7193 625.4778 33.3 280.181 274.838 10 11
+11 205.7193 625.4778 95.9240 621.6128 33.3 109.863 267.984 11 12
+12 95.9240 621.6128 968.8320 635.3704 66.6 873.016 89.097 12 13
+13 968.8320 635.3704 1101.5851 735.2388 33.3 166.124 53.046 13 14
+14 1101.5851 735.2388 1104.9326 600.2249 33.3 135.055 178.580 14 15
+15 1104.9326 600.2249 987.4834 581.6637 16.7 118.907 261.019 15 16
+16 987.4834 581.6637 775.8251 556.0252 49.9 213.206 263.093 16 17
+17 775.8251 556.0252 648.6613 549.9017 16.7 127.311 267.243 17 18
+18 648.6613 549.9017 586.3906 546.9003 16.7 62.343 267.241 18 19
+19 586.3906 546.9003 485.8027 565.4050 33.4 102.276 280.424 19 20
+20 485.8027 565.4050 826.4782 514.5714 50.0 344.447 98.487 20 21
+21 826.4782 514.5714 792.2385 538.1097 16.7 41.550 304.507 21 22
+22 792.2385 538.1097 746.2674 572.2112 16.7 57.239 306.568 22 23
+23 746.2674 572.2112 728.3335 629.7869 16.7 60.304 342.699 23 24
+24 728.3335 629.7869 799.7013 618.6735 16.7 72.228 98.851 24 25
+
+Scanpath analysis report [Subject: 1, Stimulus: 2]
+-Total scanpath length: 4060.94 pixels
+-Total scanpath duration: 9997.20 ms
+-Ratio saccades/fixations (durations): 0.089
+
+AOI analysis [Subject: 1, Stimulus: 2, AOI: 1]
+-Total number of fixations inside or on the edge of AOI: 10
+-Minimum fixation duration inside or on the edge of AOI: 166.50 ms
+-Maximum fixation duration inside or on the edge of AOI: 1332.90 ms
+-Average fixation duration inside or on the edge of AOIe: 461.48 ms
+-Total duration of fixations inside or on the edge of AOI: 4614.80 ms
+-Fixation list inside or on the edge of AOI:
+ID-Xcenter(pixels)-Ycenter(pixels)-Nt1-Nt2/3s-StartTime(ms)-EndTime(ms)-Duration(ms)
+1 701.15 541.44 13 12 38394.10 38577.40 183.30
+2 822.11 539.04 81 81 38793.90 40126.80 1332.90
+3 802.94 546.87 43 42 40776.60 41459.70 683.10
+4 667.29 557.67 12 11 41493.10 41659.60 166.50
+5 775.83 556.03 16 15 44658.50 44891.80 233.30
+6 648.66 549.90 15 15 44908.50 45141.70 233.20
+7 586.39 546.90 17 17 45158.40 45424.90 266.50
+8 826.48 514.57 37 36 45741.50 46324.60 583.10
+9 792.24 538.11 44 44 46341.30 47057.70 716.40
+10 746.27 572.21 14 14 47074.40 47290.90 216.50
+
+Fixation analysis report [Subject: 1, Stimulus: 3]
+-Total number of fixations on the visual scene: 20
+-Minimum fixation duration on the visual scene: 149.90 ms
+-Maximum fixation duration on the visual scene: 1082.90 ms
+-Average fixation duration on the visual scene: 463.71 ms
+-Total duration of fixations on the visual scene: 9274.10 ms
+-Fixation list:
+ID-Xcenter(pixels)-Ycenter(pixels)-Nt1-Nt2/3s-StartTime(ms)-EndTime(ms)-Duration(ms)
+1 455.21 817.50 14 14 87965.70 88193.20 227.50
+2 583.81 740.00 12 12 88226.60 88409.80 183.20
+3 527.09 681.58 31 31 88426.50 88926.30 499.80
+4 907.22 718.85 12 12 88976.30 89159.60 183.30
+5 994.82 722.33 21 21 89176.20 89509.40 333.20
+6 485.14 669.62 34 34 89559.40 90109.20 549.80
+7 539.52 663.74 26 26 90125.90 90542.40 416.50
+8 232.88 725.58 18 18 90592.40 90875.60 283.20
+9 167.53 710.20 14 14 90892.30 91108.90 216.60
+10 1031.50 752.55 10 10 91175.50 91325.50 150.00
+11 1193.86 738.68 11 10 91358.80 91508.70 149.90
+12 1076.22 733.98 66 66 91525.40 92608.30 1082.90
+13 1003.90 723.41 53 53 92625.00 93491.40 866.40
+14 1062.96 743.77 26 26 93508.00 93924.60 416.60
+15 1236.19 743.81 15 14 93974.50 94191.10 216.60
+16 1222.75 699.96 19 19 94207.80 94507.60 299.80
+17 1063.34 741.36 51 51 94541.00 95374.00 833.00
+18 998.21 725.02 60 60 95390.70 96373.70 983.00
+19 908.44 736.02 60 60 96390.40 97373.30 982.90
+20 837.93 754.18 25 25 97390.00 97789.90 399.90
+
+Saccade analysis report [Subject: 1, Stimulus: 3]
+-Total number of saccades on the visual scene: 19
+-Minimum saccade duration on the visual scene: 16.60 ms
+-Maximum saccade duration on the visual scene: 66.60 ms
+-Average saccade duration on the visual scene: 28.95 ms
+-Total duration of saccades on the visual scene: 550.10 ms
+-Minimum saccade amplitude on the visual scene: 45.86 pixels
+-Maximum saccade amplitude on the visual scene: 865.00 pixels
+-Average saccade amplitude on the visual scene: 186.51 pixels
+-Minimum saccade direction angle on the visual scene: 70.98 degrees
+-Maximum saccade direction angle on the visual scene: 284.56 degrees
+-Average saccade direction angle on the visual scene: 188.80 degrees
+-Saccade list:
+ID-X_Start_Point(pixels)-Y_Start_Point(pixels)-X_End_Point(pixels)-Y_End_Point(pixels)
+-Duration(ms)-Amplitude(pixels)-Direction_angle(degrees)-Start_Fixation-End_Fixation)
+1 455.2137 817.4958 583.8080 740.0021 33.4 150.139 121.074 1 2
+2 583.8080 740.0021 527.0875 681.5843 16.7 81.424 224.155 2 3
+3 527.0875 681.5843 907.2213 718.8480 50.0 381.956 84.401 3 4
+4 907.2213 718.8480 994.8221 722.3345 16.6 87.670 87.721 4 5
+5 994.8221 722.3345 485.1388 669.6207 50.0 512.402 264.095 5 6
+6 485.1388 669.6207 539.5151 663.7450 16.7 54.693 96.167 6 7
+7 539.5151 663.7450 232.8818 725.5836 50.0 312.807 281.402 7 8
+8 232.8818 725.5836 167.5337 710.2025 16.7 67.134 256.755 8 9
+9 167.5337 710.2025 1031.5008 752.5478 66.6 865.004 87.194 9 10
+10 1031.5008 752.5478 1193.8560 738.6829 33.3 162.946 94.881 10 11
+11 1193.8560 738.6829 1076.2201 733.9768 16.7 117.730 267.709 11 12
+12 1076.2201 733.9768 1003.9040 723.4096 16.7 73.084 261.686 12 13
+13 1003.9040 723.4096 1062.9563 743.7706 16.6 62.464 70.976 13 14
+14 1062.9563 743.7706 1236.1874 743.8117 49.9 173.231 89.986 14 15
+15 1236.1874 743.8117 1222.7503 699.9633 16.7 45.861 197.037 15 16
+16 1222.7503 699.9633 1063.3362 741.3640 33.4 164.702 284.558 16 17
+17 1063.3362 741.3640 998.2059 725.0176 16.7 67.150 255.911 17 18
+18 998.2059 725.0176 908.4395 736.0239 16.7 90.439 276.990 18 19
+19 908.4395 736.0239 837.9341 754.1801 16.7 72.806 284.441 19 20
+
+Scanpath analysis report [Subject: 1, Stimulus: 3]
+-Total scanpath length: 3543.64 pixels
+-Total scanpath duration: 9824.20 ms
+-Ratio saccades/fixations (durations): 0.059
+
+Fixation analysis report [Subject: 2, Stimulus: 1]
+-Total number of fixations on the visual scene: 28
+-Minimum fixation duration on the visual scene: 100.00 ms
+-Maximum fixation duration on the visual scene: 883.00 ms
+-Average fixation duration on the visual scene: 313.58 ms
+-Total duration of fixations on the visual scene: 8780.20 ms
+-Fixation list:
+ID-Xcenter(pixels)-Ycenter(pixels)-Nt1-Nt2/3s-StartTime(ms)-EndTime(ms)-Duration(ms)
+1 511.93 513.25 29 28 17871.10 18420.90 549.80
+2 689.56 551.98 10 9 18454.20 18587.50 133.30
+3 502.92 534.69 20 20 18620.80 18937.40 316.60
+4 871.25 584.36 52 51 18987.30 19820.30 833.00
+5 1058.13 700.04 15 15 19853.70 20086.90 233.20
+6 772.58 811.47 14 14 20120.20 20336.90 216.70
+7 545.77 772.39 13 13 20370.20 20570.10 199.90
+8 228.16 634.30 54 54 20603.40 21486.40 883.00
+9 647.96 595.01 10 10 21536.40 21686.30 149.90
+10 891.55 596.35 15 14 21736.30 21952.90 216.60
+11 927.05 585.70 7 7 21969.60 22069.60 100.00
+12 1081.52 624.68 23 23 22102.90 22469.40 366.50
+13 816.92 572.51 11 10 22519.40 22669.30 149.90
+14 235.28 642.15 47 47 22852.60 23619.00 766.40
+15 441.50 552.99 10 10 23652.30 23802.30 150.00
+16 622.64 510.77 8 8 23835.60 23952.20 116.60
+17 898.63 542.41 12 12 23985.50 24168.80 183.30
+18 1063.39 759.82 18 18 24202.10 24485.30 283.20
+19 1025.76 735.47 14 14 24502.00 24718.60 216.60
+20 1033.37 730.57 44 43 24818.50 25518.30 699.80
+21 766.82 722.72 10 10 25568.30 25718.20 149.90
+22 374.06 770.20 18 18 25768.20 26051.40 283.20
+23 251.26 809.86 17 17 26068.10 26334.70 266.60
+24 131.13 611.84 9 9 26384.60 26517.90 133.30
+25 901.12 686.16 13 12 26601.20 26784.50 183.30
+26 1042.61 717.50 13 13 26801.20 27001.10 199.90
+27 871.97 609.11 31 31 27034.40 27534.20 499.80
+28 825.65 598.29 19 19 27550.80 27850.70 299.90
+
+Saccade analysis report [Subject: 2, Stimulus: 1]
+-Total number of saccades on the visual scene: 27
+-Minimum saccade duration on the visual scene: 16.60 ms
+-Maximum saccade duration on the visual scene: 183.30 ms
+-Average saccade duration on the visual scene: 44.42 ms
+-Total duration of saccades on the visual scene: 1199.40 ms
+-Minimum saccade amplitude on the visual scene: 9.05 pixels
+-Maximum saccade amplitude on the visual scene: 773.57 pixels
+-Average saccade amplitude on the visual scene: 250.63 pixels
+-Minimum saccade direction angle on the visual scene: 37.16 degrees
+-Maximum saccade direction angle on the visual scene: 291.32 degrees
+-Average saccade direction angle on the visual scene: 169.70 degrees
+-Saccade list:
+ID-X_Start_Point(pixels)-Y_Start_Point(pixels)-X_End_Point(pixels)-Y_End_Point(pixels)
+-Duration(ms)-Amplitude(pixels)-Direction_angle(degrees)-Start_Fixation-End_Fixation)
+1 511.9314 513.2471 689.5644 551.9815 33.3 181.807 77.699 1 2
+2 689.5644 551.9815 502.9248 534.6918 33.3 187.439 264.707 2 3
+3 502.9248 534.6918 871.2533 584.3627 49.9 371.663 82.320 3 4
+4 871.2533 584.3627 1058.1333 700.0405 33.4 219.785 58.243 4 5
+5 1058.1333 700.0405 772.5806 811.4688 33.3 306.523 291.317 5 6
+6 772.5806 811.4688 545.7723 772.3874 33.3 230.151 260.223 6 7
+7 545.7723 772.3874 228.1647 634.3016 33.3 346.327 246.502 7 8
+8 228.1647 634.3016 647.9616 595.0054 50.0 421.632 95.348 8 9
+9 647.9616 595.0054 891.5474 596.3483 50.0 243.590 89.684 9 10
+10 891.5474 596.3483 927.0491 585.6987 16.7 37.065 106.698 10 11
+11 927.0491 585.6987 1081.5221 624.6801 33.3 159.316 75.837 11 12
+12 1081.5221 624.6801 816.9216 572.5082 50.0 269.695 258.846 12 13
+13 816.9216 572.5082 235.2776 642.1526 183.3 585.799 276.828 13 14
+14 235.2776 642.1526 441.4976 552.9907 33.3 224.670 113.382 14 15
+15 441.4976 552.9907 622.6400 510.7712 33.3 185.997 103.120 15 16
+16 622.6400 510.7712 898.6347 542.4128 33.3 277.803 83.460 16 17
+17 898.6347 542.4128 1063.3884 759.8194 33.3 272.781 37.155 17 18
+18 1063.3884 759.8194 1025.7554 735.4661 16.7 44.826 237.092 18 19
+19 1025.7554 735.4661 1033.3678 730.5692 99.9 9.051 122.752 19 20
+20 1033.3678 730.5692 766.8224 722.7187 50.0 266.661 268.313 20 21
+21 766.8224 722.7187 374.0587 770.1959 50.0 395.623 276.892 21 22
+22 374.0587 770.1959 251.2640 809.8575 16.7 129.041 287.900 22 23
+23 251.2640 809.8575 131.1289 611.8400 49.9 231.610 211.245 23 24
+24 131.1289 611.8400 901.1200 686.1568 83.3 773.569 84.487 24 25
+25 901.1200 686.1568 1042.6092 717.5010 16.7 144.920 77.509 25 26
+26 1042.6092 717.5010 871.9690 609.1115 33.3 202.154 237.577 26 27
+27 871.9690 609.1115 825.6539 598.2855 16.6 47.564 256.843 27 28
+
+Scanpath analysis report [Subject: 2, Stimulus: 1]
+-Total scanpath length: 6767.06 pixels
+-Total scanpath duration: 9979.60 ms
+-Ratio saccades/fixations (durations): 0.137
+
+AOI analysis [Subject: 2, Stimulus: 1, AOI: 1]
+-Total number of fixations inside or on the edge of AOI: 9
+-Minimum fixation duration inside or on the edge of AOI: 116.60 ms
+-Maximum fixation duration inside or on the edge of AOI: 833.00 ms
+-Average fixation duration inside or on the edge of AOIe: 286.93 ms
+-Total duration of fixations inside or on the edge of AOI: 2582.40 ms
+-Fixation list inside or on the edge of AOI:
+ID-Xcenter(pixels)-Ycenter(pixels)-Nt1-Nt2/3s-StartTime(ms)-EndTime(ms)-Duration(ms)
+1 511.93 513.25 29 28 17871.10 18420.90 549.80
+2 689.56 551.98 10 9 18454.20 18587.50 133.30
+3 502.92 534.69 20 20 18620.80 18937.40 316.60
+4 871.25 584.36 52 51 18987.30 19820.30 833.00
+5 647.96 595.01 10 10 21536.40 21686.30 149.90
+6 816.92 572.51 11 10 22519.40 22669.30 149.90
+7 441.50 552.99 10 10 23652.30 23802.30 150.00
+8 622.64 510.77 8 8 23835.60 23952.20 116.60
+9 898.63 542.41 12 12 23985.50 24168.80 183.30
+
+AOI analysis [Subject: 2, Stimulus: 1, AOI: 2]
+-Total number of fixations inside or on the edge of AOI: 4
+-Minimum fixation duration inside or on the edge of AOI: 199.90 ms
+-Maximum fixation duration inside or on the edge of AOI: 699.80 ms
+-Average fixation duration inside or on the edge of AOIe: 349.87 ms
+-Total duration of fixations inside or on the edge of AOI: 1399.50 ms
+-Fixation list inside or on the edge of AOI:
+ID-Xcenter(pixels)-Ycenter(pixels)-Nt1-Nt2/3s-StartTime(ms)-EndTime(ms)-Duration(ms)
+1 1063.39 759.82 18 18 24202.10 24485.30 283.20
+2 1025.76 735.47 14 14 24502.00 24718.60 216.60
+3 1033.37 730.57 44 43 24818.50 25518.30 699.80
+4 1042.61 717.50 13 13 26801.20 27001.10 199.90
+
+Fixation analysis report [Subject: 2, Stimulus: 2]
+-Total number of fixations on the visual scene: 29
+-Minimum fixation duration on the visual scene: 116.60 ms
+-Maximum fixation duration on the visual scene: 833.10 ms
+-Average fixation duration on the visual scene: 283.25 ms
+-Total duration of fixations on the visual scene: 8214.20 ms
+-Fixation list:
+ID-Xcenter(pixels)-Ycenter(pixels)-Nt1-Nt2/3s-StartTime(ms)-EndTime(ms)-Duration(ms)
+1 696.99 729.15 20 20 37880.40 38263.60 383.20
+2 814.02 643.96 13 12 38296.90 38480.20 183.30
+3 646.18 587.78 14 14 38513.50 38730.10 216.60
+4 158.29 669.58 13 13 38780.10 38980.00 199.90
+5 42.63 624.74 23 22 39013.30 39363.20 349.90
+6 193.79 658.90 14 13 39396.50 39596.50 200.00
+7 1023.67 801.33 18 17 39729.70 39996.30 266.60
+8 1080.27 773.77 16 16 40013.10 40262.90 249.80
+9 1054.58 632.70 9 8 40296.20 40412.80 116.60
+10 1057.76 607.54 8 7 40429.50 40546.10 116.60
+11 938.55 587.99 14 14 40646.00 40862.70 216.70
+12 982.50 529.36 16 16 40879.30 41129.20 249.90
+13 1056.89 502.52 12 12 41145.90 41329.20 183.30
+14 1017.09 239.17 20 19 41379.10 41679.00 299.90
+15 844.85 198.40 13 12 41712.30 41895.60 183.30
+16 312.26 172.28 18 18 41945.60 42228.80 283.20
+17 230.73 168.38 15 15 42245.40 42478.70 233.30
+18 1133.93 250.21 35 34 42562.00 43128.50 566.50
+19 1071.20 246.55 9 9 43145.10 43278.40 133.30
+20 802.94 676.66 27 27 43478.30 43911.50 433.20
+21 753.61 654.67 9 9 43994.80 44128.10 133.30
+22 1043.69 647.39 17 17 44178.10 44444.60 266.50
+23 1096.59 655.43 39 39 44461.30 45094.40 633.10
+24 348.33 667.77 10 10 45177.70 45327.70 150.00
+25 128.38 637.44 21 21 45361.00 45694.30 333.30
+26 185.62 606.19 14 14 45710.80 45927.50 216.70
+27 909.70 622.78 20 20 45994.10 46310.60 316.50
+28 1106.08 650.73 51 51 46343.90 47177.00 833.10
+29 1085.65 642.28 17 17 47443.50 47710.10 266.60
+
+Saccade analysis report [Subject: 2, Stimulus: 2]
+-Total number of saccades on the visual scene: 28
+-Minimum saccade duration on the visual scene: 16.50 ms
+-Maximum saccade duration on the visual scene: 266.50 ms
+-Average saccade duration on the visual scene: 57.70 ms
+-Total duration of saccades on the visual scene: 1615.50 ms
+-Minimum saccade amplitude on the visual scene: 22.10 pixels
+-Maximum saccade amplitude on the visual scene: 906.90 pixels
+-Average saccade amplitude on the visual scene: 262.69 pixels
+-Minimum saccade direction angle on the visual scene: 77.27 degrees
+-Maximum saccade direction angle on the visual scene: 328.05 degrees
+-Average saccade direction angle on the visual scene: 185.86 degrees
+-Saccade list:
+ID-X_Start_Point(pixels)-Y_Start_Point(pixels)-X_End_Point(pixels)-Y_End_Point(pixels)
+-Duration(ms)-Amplitude(pixels)-Direction_angle(degrees)-Start_Fixation-End_Fixation)
+1 696.9920 729.1546 814.0160 643.9595 33.3 144.751 126.055 1 2
+2 814.0160 643.9595 646.1806 587.7833 33.3 176.987 251.494 2 3
+3 646.1806 587.7833 158.2868 669.5778 50.0 494.703 279.517 3 4
+4 158.2868 669.5778 42.6298 624.7424 33.3 124.043 248.811 4 5
+5 42.6298 624.7424 193.7920 658.9046 33.3 154.974 77.265 5 6
+6 193.7920 658.9046 1023.6687 801.3342 133.2 842.010 80.261 6 7
+7 1023.6687 801.3342 1080.2720 773.7664 16.8 62.960 115.968 7 8
+8 1080.2720 773.7664 1054.5760 632.7040 33.3 143.384 190.324 8 9
+9 1054.5760 632.7040 1057.7554 607.5392 16.7 25.365 172.799 9 10
+10 1057.7554 607.5392 938.5509 587.9881 99.9 120.797 260.686 10 11
+11 938.5509 587.9881 982.4960 529.3632 16.6 73.267 143.145 11 12
+12 982.4960 529.3632 1056.8853 502.5195 16.7 79.085 109.842 12 13
+13 1056.8853 502.5195 1017.0947 239.1687 49.9 266.340 188.592 13 14
+14 1017.0947 239.1687 844.8533 198.4000 33.3 177.001 256.683 14 15
+15 844.8533 198.4000 312.2631 172.2766 50.0 533.231 267.192 15 16
+16 312.2631 172.2766 230.7328 168.3797 16.6 81.623 267.264 16 17
+17 230.7328 168.3797 1133.9332 250.2054 83.3 906.899 84.823 17 18
+18 1133.9332 250.2054 1071.2036 246.5451 16.6 62.836 266.661 18 19
+19 1071.2036 246.5451 802.9393 676.6630 199.9 506.919 328.048 19 20
+20 802.9393 676.6630 753.6071 654.6660 83.3 54.014 245.968 20 21
+21 753.6071 654.6660 1043.6894 647.3909 50.0 290.174 91.437 21 22
+22 1043.6894 647.3909 1096.5858 655.4335 16.7 53.504 81.355 22 23
+23 1096.5858 655.4335 348.3264 667.7709 83.3 748.361 270.945 23 24
+24 348.3264 667.7709 128.3840 637.4351 33.3 222.025 262.147 24 25
+25 128.3840 637.4351 185.6183 606.1934 16.5 65.206 118.628 25 26
+26 185.6183 606.1934 909.6960 622.7763 66.6 724.268 88.688 26 27
+27 909.6960 622.7763 1106.0756 650.7279 33.3 198.359 81.899 27 28
+28 1106.0756 650.7279 1085.6508 642.2829 266.5 22.102 247.536 28 29
+
+Scanpath analysis report [Subject: 2, Stimulus: 2]
+-Total scanpath length: 7355.19 pixels
+-Total scanpath duration: 9829.70 ms
+-Ratio saccades/fixations (durations): 0.197
+
+AOI analysis [Subject: 2, Stimulus: 2, AOI: 1]
+-There are no fixations inside or on the edge of the AOI
+
+Fixation analysis report [Subject: 2, Stimulus: 3]
+-Total number of fixations on the visual scene: 30
+-Minimum fixation duration on the visual scene: 116.60 ms
+-Maximum fixation duration on the visual scene: 683.10 ms
+-Average fixation duration on the visual scene: 288.21 ms
+-Total duration of fixations on the visual scene: 8646.20 ms
+-Fixation list:
+ID-Xcenter(pixels)-Ycenter(pixels)-Nt1-Nt2/3s-StartTime(ms)-EndTime(ms)-Duration(ms)
+1 1016.85 711.24 8 8 87879.50 88078.70 199.20
+2 960.84 692.10 10 10 88095.30 88245.30 150.00
+3 511.22 702.27 19 19 88295.20 88595.10 299.90
+4 395.84 690.43 25 25 88611.80 89011.80 400.00
+5 142.71 819.07 41 41 89045.00 89711.40 666.40
+6 899.23 741.93 10 10 89778.00 89927.90 149.90
+7 1039.91 738.29 18 18 89944.60 90227.80 283.20
+8 988.54 725.19 18 18 90244.50 90527.70 283.20
+9 964.08 701.88 8 8 90544.40 90661.00 116.60
+10 1045.94 706.01 14 12 90794.30 90994.20 199.90
+11 1155.53 703.60 11 10 91160.80 91310.80 150.00
+12 1207.73 710.00 42 42 91327.40 92010.50 683.10
+13 1185.08 641.65 39 39 92027.20 92660.30 633.10
+14 1048.38 305.23 12 12 92710.30 92893.50 183.20
+15 668.50 326.50 13 13 92926.80 93126.80 200.00
+16 432.04 344.46 21 21 93160.10 93493.30 333.20
+17 280.18 398.31 16 16 93526.70 93776.60 249.90
+18 82.06 492.95 15 15 93809.90 94043.10 233.20
+19 40.26 533.91 14 14 94059.80 94276.40 216.60
+20 504.18 684.52 12 11 94409.70 94592.90 183.20
+21 577.42 693.83 18 18 94609.60 94892.80 283.20
+22 493.07 702.87 13 13 94909.50 95109.40 199.90
+23 416.11 698.88 21 21 95126.00 95459.30 333.30
+24 604.97 719.97 19 18 95492.60 95775.80 283.20
+25 1062.34 909.20 24 24 95825.80 96209.00 383.20
+26 1118.09 856.33 14 14 96259.00 96475.60 216.60
+27 807.58 872.39 21 21 96508.90 96842.10 333.20
+28 749.12 876.12 21 21 96858.70 97192.00 333.30
+29 760.25 873.45 13 12 97225.30 97408.60 183.30
+30 498.38 831.94 18 18 97441.90 97725.10 283.20
+
+Saccade analysis report [Subject: 2, Stimulus: 3]
+-Total number of saccades on the visual scene: 29
+-Minimum saccade duration on the visual scene: 16.60 ms
+-Maximum saccade duration on the visual scene: 166.60 ms
+-Average saccade duration on the visual scene: 41.36 ms
+-Total duration of saccades on the visual scene: 1199.40 ms
+-Minimum saccade amplitude on the visual scene: 11.44 pixels
+-Maximum saccade amplitude on the visual scene: 760.44 pixels
+-Average saccade amplitude on the visual scene: 198.77 pixels
+-Minimum saccade direction angle on the visual scene: 67.52 degrees
+-Maximum saccade direction angle on the visual scene: 314.42 degrees
+-Average saccade direction angle on the visual scene: 198.46 degrees
+-Saccade list:
+ID-X_Start_Point(pixels)-Y_Start_Point(pixels)-X_End_Point(pixels)-Y_End_Point(pixels)
+-Duration(ms)-Amplitude(pixels)-Direction_angle(degrees)-Start_Fixation-End_Fixation)
+1 1016.8480 711.2448 960.8448 692.1011 16.6 59.185 251.128 1 2
+2 960.8448 692.1011 511.2185 702.2700 49.9 449.741 271.296 2 3
+3 511.2185 702.2700 395.8426 690.4259 16.7 115.982 264.139 3 4
+4 395.8426 690.4259 142.7106 819.0701 33.2 283.946 296.940 4 5
+5 142.7106 819.0701 899.2256 741.9290 66.6 760.438 95.822 5 6
+6 899.2256 741.9290 1039.9076 738.2926 16.7 140.729 91.481 6 7
+7 1039.9076 738.2926 988.5440 725.1911 16.7 53.008 255.690 7 8
+8 988.5440 725.1911 964.0800 701.8752 16.7 33.795 226.376 8 9
+9 964.0800 701.8752 1045.9413 706.0053 133.3 81.965 87.112 9 10
+10 1045.9413 706.0053 1155.5328 703.6006 166.6 109.618 91.257 10 11
+11 1155.5328 703.6006 1207.7257 710.0026 16.6 52.584 83.007 11 12
+12 1207.7257 710.0026 1185.0798 641.6463 16.7 72.010 198.330 12 13
+13 1185.0798 641.6463 1048.3840 305.2288 50.0 363.129 202.113 13 14
+14 1048.3840 305.2288 668.5046 326.4985 33.3 380.474 273.205 14 15
+15 668.5046 326.4985 432.0366 344.4590 33.3 237.149 274.343 15 16
+16 432.0366 344.4590 280.1840 398.3104 33.4 161.119 289.526 16 17
+17 280.1840 398.3104 82.0565 492.9536 33.3 219.572 295.533 17 18
+18 82.0565 492.9536 40.2560 533.9136 16.7 58.524 314.418 18 19
+19 40.2560 533.9136 504.1804 684.5161 133.3 487.757 72.015 19 20
+20 504.1804 684.5161 577.4222 693.8283 16.7 73.831 82.754 20 21
+21 577.4222 693.8283 493.0658 702.8736 16.7 84.840 276.120 21 22
+22 493.0658 702.8736 416.1097 698.8800 16.6 77.060 267.029 22 23
+23 416.1097 698.8800 604.9707 719.9687 33.3 190.035 83.629 23 24
+24 604.9707 719.9687 1062.3413 909.2011 50.0 494.972 67.523 24 25
+25 1062.3413 909.2011 1118.0891 856.3273 50.0 76.834 133.484 25 26
+26 1118.0891 856.3273 807.5764 872.3895 33.3 310.928 272.961 26 27
+27 807.5764 872.3895 749.1170 876.1246 16.6 58.579 273.656 27 28
+28 749.1170 876.1246 760.2453 873.4549 33.3 11.444 103.490 28 29
+29 760.2453 873.4549 498.3751 831.9374 33.3 265.141 260.991 29 30
+
+Scanpath analysis report [Subject: 2, Stimulus: 3]
+-Total scanpath length: 5764.39 pixels
+-Total scanpath duration: 9845.60 ms
+-Ratio saccades/fixations (durations): 0.139
+
+
+[2] Landscape Rate Index (LRI) report:
+
+LRI model
+-Fixations based weights/parameters:
+w1/p1: Total number of fixations on the visual scene
+w2/p2: Minimum fixation duration on the visual scene
+w3/p3: Maximum fixation duration on the visual scene
+w4/p4: Average fixation duration on the visual scene
+w5/p5: Total duration of fixations on the visual scene
+-Saccades based weights/parameters:
+w6/p6: Total number of saccades on the visual scene
+w7/p7: Minimum saccade duration on the visual scene
+w8/p8: Maximum saccade duration on the visual scene
+w9/p9: Average saccade duration on the visual scene
+w10/p10: Total duration of saccades on the visual scene
+w11/p11: Minimum saccade amplitude on the visual scene
+w12/p12: Maximum saccade amplitude on the visual scene
+w13/p13: Average saccade amplitude on the visual scene
+w14/p14: Minimum saccade direction angle on the visual scene
+w15/p15: Maximum saccade direction angle on the visual scene
+w16/p16: Average saccade direction angle on the visual scene
+-Scanpath based wights/parameters:
+w17/p17: Total scanpath length
+w18/p18: Total scanpath duration
+w19/p19: Ratio saccades/fixations (durations)
+
+Average values of parameters (before normalization) for each stimuli
+p1-p2-p3-p4-p5-p6-p7-p8-p9-p10-p11-p12-p13-p14-p15-p16-p17-p18-p19
+Stim.1:30.50 101.30 924.65 294.20 8924.65 29.50 16.60 130.40 36.70 1063.35 17.78 763.88 207.67 34.51 296.17 173.00 6018.91 9988.00 0.12
+Stim.2:27.00 124.95 1083.00 325.24 8697.45 26.00 16.55 191.55 45.86 1216.00 31.83 889.96 215.95 65.16 335.37 202.96 5708.06 9913.45 0.14
+Stim.3:25.00 133.25 883.00 375.96 8960.15 24.00 16.60 116.60 35.16 874.75 28.65 812.72 192.64 69.25 299.49 193.63 4654.01 9834.90 0.10
+
+Normalized values of selected weights (between 0 and 1) for LRI computation:
+w1: 0.034
+w2: 0.046
+w3: 0.057
+w4: 0.069
+w5: 0.011
+w6: 0.057
+w7: 0.103
+w8: 0.011
+w9: 0.115
+w10: 0.023
+w11: 0.080
+w12: 0.046
+w13: 0.023
+w14: 0.034
+w15: 0.057
+w16: 0.011
+w17: 0.046
+w18: 0.069
+w19: 0.103
+
+Computation of LRI for each stimuli
+LRI (Stimulus 1): 0.850 
+LRI (Stimulus 2): 0.971 
+LRI (Stimulus 3): 0.870 
+
+Report created successfully
+07-Nov-2017 11:19:32
+Elapsed time is 41.947506 seconds.
+
+
+----------------------------------------------------------------------
+LandRate toolbox: Eye movement analysis and landscape rating tool
+Copyright (C) 2017 Vassilios Krassanakis
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+For further information, please email me at [krasanakisv@gmail.com], [krasvas@mail.ntua.gr], or [krasvas@teiath.gr] 
+
